@@ -1,0 +1,13 @@
+.btn{
+    border-radius: 5px;
+    padding: 10px;
+    background: transparent;
+    border: 0px;
+    box-shadow: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.btn.btn-gray{
+    background-color: gray;
+    color: white;
+}
