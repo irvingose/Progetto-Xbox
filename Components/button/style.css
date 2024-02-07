@@ -1,13 +1,75 @@
-.btn{
+
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+
+.btnlogo{
+    background: none;
+    border: none;
+    transition: 0.2s;
+    padding: 6px 5px 3px 5px;
+    border-radius: 50%;
+}
+.btnlogo:hover{
+    background-color: #6d6d6d;
+}
+.btncldgaming{
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px;
     background: transparent;
     border: 0px;
     box-shadow: none;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-.btn.btn-gray{
-    background-color: gray;
     color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.2s;
+    
+}
+.btncldgaming:hover{
+    background-color:#6d6d6d;
+}
+.btnspangaming{
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+    font-weight: 700;
+    }
+    
+.btnaccedi a{
+        text-decoration: none;
+        color: white;
+    }
+.btnaccedi{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #008746;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 115px;
+    transition: 0.2s;
+}
+.btnaccedi:hover{
+    background-color: #007738;
+}
+.inpcerca{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-left: 30px;
+    border-radius: 35px;
+    font-size: 24px;
+}
+.buttonuser{
+    background: #6d6d6d;
+    border: none;
+    transition: 0.2s;
+    padding: 6px 5px 3px 5px;
+    border-radius: 50%;
+}
+.buttonuser:hover{
+    background-color: #5b6069;
 }
