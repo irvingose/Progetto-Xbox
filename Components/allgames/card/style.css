@@ -1,4 +1,57 @@
-.card{
-    border-radius: 10px;
-    overflow: hidden;
+.someblock__cardcontainer__card {
+  width: 10rem;
+  height: 10rem;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+  position: relative;
+}
+
+.someblock__cardcontainer__card__image__title {
+  color: white;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  max-height: 0;
+  transition: max-height 1s;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.someblock__cardcontainer__card:hover .someblock__cardcontainer__card__image__title {
+  max-height: 100%;
+}
+
+.someblock__cardcontainer__card__image img {
+  max-width: 100%;
+}
+
+.someblock__cardcontainer__card__image {
+  position: absolute;
+}
+
+.someblock__cardcontainer__card__icons {
+  width: 2rem;
+  height: 2rem;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  align-self: flex-end;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.someblock__cardcontainer__card:hover .someblock__cardcontainer__card__icons {
+  display: none;
+}
+
+.someblock__cardcontainer__card__icons svg path {
+  fill: white;
+ 
 }
