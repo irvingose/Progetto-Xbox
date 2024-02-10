@@ -1,0 +1,14 @@
+.someblock__button__visualizzatuttigiochi {
+  color: white;
+  background-color: #2d3036;
+  border: 0;
+  border-radius: 4px;
+  width: 16rem;
+  height: 2.3rem;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.someblock__button__visualizzatuttigiochi:hover {
+  background-color: #515863;
+}
