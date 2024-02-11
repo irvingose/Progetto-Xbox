@@ -1,2 +1,5 @@
 @import url(..Components/button/style.css);
 @import url(..Components/card/style.css);
+@import url(/Components/all-games/all-games.css);
+@import url(/Components/all-games/all-games-buttons.css);
+@import url(/Components/all-games/all-games-card.css);

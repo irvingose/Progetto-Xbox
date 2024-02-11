@@ -1,0 +1,31 @@
+.someblock__button__visualizzatuttigiochi {
+  color: white;
+  background-color: #2d3036;
+  border: 0;
+  border-radius: 4px;
+  width: 16rem;
+  height: 2.3rem;
+  font-weight: 600;
+  margin: 15px;
+}
+
+.someblock__button__mostra__tutto {
+  grid-column-end: -1;
+  border-radius: 4px;
+  border-width: 0;
+  color: white;
+  background-color: #1a1b1e;
+  font-weight: 300;
+  height: 24px;
+  width: 120px;
+  justify-self: center;
+  align-self: center;
+}
+
+.someblock__button__visualizzatuttigiochi:hover {
+  background-color: #515863;
+}
+
+.someblock__button__mostra__tutto:hover {
+  background-color: #515863;
+}
