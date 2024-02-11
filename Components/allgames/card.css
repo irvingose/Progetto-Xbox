@@ -56,10 +56,6 @@
   display: none;
 }
 
-.someblock__cardcontainer__card__icons svg path {
-  fill: white;
-}
-
 .someblock__cardcontainer__card__image__title__a {
   text-align: center;
 }
