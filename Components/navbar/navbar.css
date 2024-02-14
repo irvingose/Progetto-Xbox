@@ -19,7 +19,7 @@
 .button_right > * {
   margin-left: 10px;
 }
-.container_btn_ivisible {
+.container_btn_invisible {
   display: none;
 }
 
@@ -43,7 +43,7 @@
   background-color: #484e58;
 }
 @media screen and (max-width: 750px) {
-  .container_btn_ivisible {
+  .container_btn_invisible {
     display: block;
   }
   .button_ball {
