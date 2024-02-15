@@ -4,7 +4,6 @@
   align-items: center;
   margin-bottom: 20px;
   color: #fff;
-  margin-left: 5%;
 }
 
 .cards-header h1 {
@@ -100,7 +99,6 @@
 }
 
 .game-card-container {
-  margin-left: 5%;
   display: flex;
   gap: 10px;
 }

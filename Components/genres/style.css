@@ -1,8 +1,7 @@
 .genres {
-  background-color: #1a1b1e;
   color: white;
-  padding: 10px;
   position: relative;
+  width: 90%;
 }
 .genres_header {
   display: flex;
