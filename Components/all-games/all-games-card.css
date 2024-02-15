@@ -1,6 +1,6 @@
 .someblock__cardcontainer__card {
-  width: 140px;
-  height: 140px;
+  width: 150px;
+  height: 150px;
   background-color: black;
   display: flex;
   flex-direction: column;
