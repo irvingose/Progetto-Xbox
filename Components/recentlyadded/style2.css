@@ -1,0 +1,133 @@
+.cards-header {
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.cards-header h1 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-block: auto;
+}
+
+.cards-header a {
+  margin-left: auto;
+  color: white;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: right;
+  text-decoration: none;
+}
+
+.second-header {
+  color: #fff;
+}
+
+.second-header a {
+  margin-left: auto;
+  color: white;
+  text-align: right;
+}
+
+.game-cards {
+  display: flex;
+  gap: 10px;
+}
+
+.game-card {
+  width: 198px;
+  height: 297px;
+  position: relative;
+  cursor: pointer;
+}
+
+.game-card::before {
+  content: attr(data-title);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 93%;
+  padding: 7px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-size: 16px;
+  text-align: left;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.game-card:hover::before {
+  opacity: 1;
+}
+
+.card-svg-container:hover .card-icon-container {
+  opacity: 0;
+}
+
+.card-icon {
+  fill: white;
+  margin: 10;
+}
+
+.card-icon2 {
+  fill: white;
+  margin: 10;
+}
+.card-icon-container {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  bottom: 0;
+  left: 0;
+}
+
+.card-icon-container2 {
+  width: 2rem;
+  height: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  align-self: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+}
+
+.game-card-container {
+  display: flex;
+  gap: 10px;
+}
+
+.gamepass-svg svg {
+  margin-top: auto;
+  padding: -8px;
+  fill: white;
+  padding: 10px;
+  width: 32px;
+}
+
+.card-svg-container {
+  position: relative;
+}
+
+.controller-svg {
+  padding: 10px;
+}
+
+.XboxGamePassLogo {
+  fill: white;
+  height: 27px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+  width: 157px;
+  vertical-align: middle;
+}
+.gamepasslogo {
+  display: flex;
+  justify-content: center;
+}

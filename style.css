@@ -1,5 +1,3 @@
-@import url("../assets/style.css");
-
 html,
 body,
 div,
@@ -136,5 +134,5 @@ body {
   gap: 40px;
   width: 100%;
   align-items: center;
-  background-image: url("../assets/images/image\ gradient\ 2.png");
+  background-image: url("Components/assets/images/image\ gradient\ 2.png");
 }
