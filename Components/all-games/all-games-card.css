@@ -1,6 +1,4 @@
 .someblock__cardcontainer__card {
-  width: 150px;
-  height: 150px;
   background-color: black;
   display: flex;
   flex-direction: column;
@@ -22,6 +20,8 @@
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
   overflow: hidden;
+  position: absolute;
+  width: 100%;
 }
 
 .someblock__cardcontainer__card:hover
@@ -35,7 +35,6 @@
 }
 
 .someblock__cardcontainer__card__image {
-  position: absolute;
   width: 100%;
   height: 100%;
 }
