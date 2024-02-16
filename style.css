@@ -110,7 +110,6 @@ table {
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
-@import url(/Components/assets/style.css);
 body {
   background-color: #1a1b1e;
   display: flex;
@@ -135,5 +134,5 @@ body {
   gap: 40px;
   width: 100%;
   align-items: center;
-  background-image: url("/Components/assets/images/image\ gradient\ 2.png");
+  background-image: url("Components/assets/images/image\ gradient\ 2.png");
 }
