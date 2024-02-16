@@ -2,6 +2,7 @@
   color: white;
   position: relative;
   width: 90%;
+  font-family: "Open Sans", sans-serif;
 }
 .genres_header {
   display: flex;
@@ -11,7 +12,7 @@
 .genres_main {
   text-transform: uppercase;
   display: grid;
-  gap: 16px;
+  gap: 12px;
   width: 100%;
   grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
 }
@@ -32,6 +33,7 @@
   bottom: 8px;
   left: 8px;
   margin: 0;
+  font-size: small;
 }
 .type_genres img {
   height: 25px;
