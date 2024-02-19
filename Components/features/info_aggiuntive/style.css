@@ -1,0 +1,29 @@
+.info_aggiuntive {
+  color: white;
+  width: 90%;
+}
+.info_aggiuntive ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.info_aggiuntive h1 {
+  font-size: larger;
+  margin: 15px 0px 15px 0px;
+}
+.info_aggiuntive a {
+  font-size: small;
+  color: white;
+  text-decoration: none;
+  display: inline-flex;
+  padding: 15px;
+  margin: 4px;
+}
+.info_aggiuntive img {
+  filter: invert(1);
+  margin-left: 8px;
+}
+.info_aggiuntive a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
