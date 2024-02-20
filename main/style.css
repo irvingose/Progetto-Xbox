@@ -137,4 +137,6 @@ body {
   width: 100%;
   align-items: center;
   background-image: url("../assets/images/image\ gradient\ 2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
