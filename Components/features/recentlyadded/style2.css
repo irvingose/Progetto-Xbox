@@ -101,6 +101,7 @@
 .game-card-container {
   display: flex;
   gap: 10px;
+  overflow: auto;
 }
 
 .gamepass-svg svg {
