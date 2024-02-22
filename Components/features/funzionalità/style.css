@@ -11,7 +11,7 @@
 }
 .container_funzionalita {
   width: 50vw;
-  height: 15vh;
+  height: 27vh;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -20,7 +20,22 @@
   background-color: #2d3036;
   overflow-y: hidden;
 }
-
+.button_funzionalita {
+  position: absolute;
+  bottom: 0px;
+  padding: 12px;
+  display: flex;
+  visibility: hidden;
+}
+.button_funzionalita button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+.button_funzionalita img {
+  filter: invert(1);
+}
 .container_funzionalita p {
   font-size: medium;
   white-space: nowrap;
@@ -43,4 +58,11 @@
   height: 100%;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 5px;
+}
+@media (max-width: 600px) {
+  .button_funzionalita {
+    visibility: visible;
+    background-color: #2d3036;
+    width: 90%;
+  }
 }

@@ -17,6 +17,7 @@
   margin: 12px 0px 12px 0px;
 }
 .container_link_raccolta {
+  padding: 20px;
   width: 100%;
   height: 25vh;
   background-color: #2d3036;
@@ -41,6 +42,7 @@
   color: white;
   font-size: large;
   padding: 5px;
+  text-align: center;
 }
 .info_raccolta {
   display: flex;
