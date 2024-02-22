@@ -18,7 +18,7 @@
   align-content: flex-start;
   position: relative;
   background-color: #2d3036;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 .button_funzionalita {
   position: absolute;

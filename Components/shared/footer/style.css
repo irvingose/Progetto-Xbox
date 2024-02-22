@@ -64,6 +64,7 @@ footer {
   display: flex;
   flex-direction: row;
   font-size: xx-small;
+  flex-wrap: wrap;
 }
 .foot_info_section li {
   margin-right: 12px;
