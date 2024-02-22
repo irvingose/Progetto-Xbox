@@ -31,14 +31,6 @@ td:first-child {
 }
 
 .table-container {
-  cursor: pointer;
-}
-
-.table-container:hover {
-  background-color: #6b7584;
-}
-
-.table-container {
   width: 90%;
   height: 100%;
   border-radius: 7px;
