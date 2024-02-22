@@ -97,3 +97,18 @@
 .header-moduleP {
   width: 90%;
 }
+.Playwith {
+  display: none;
+  color: white;
+}
+@media screen and (max-width: 1200px) {
+  .svg-title__heade-module {
+    display: none;
+  }
+  .IconText-module {
+    display: none;
+  }
+  .Playwith {
+    display: block;
+  }
+}
