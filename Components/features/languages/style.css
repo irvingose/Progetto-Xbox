@@ -3,7 +3,6 @@ table {
   border-spacing: 0;
   position: relative;
   width: 100%;
-  border: 1px solid #ddd;
   border-radius: 10px;
   background-color: #2d3036;
 }
@@ -11,7 +10,7 @@ table {
 th {
   text-align: center;
   padding: 6px;
-  background-color: #42454a;
+  border-bottom: solid 1px grey;
   color: #8d8e8f;
   font-size: 14px;
   font-family: "Segoe UI", Arial, Helvetica, sans-serif;
@@ -20,7 +19,6 @@ th {
 td {
   text-align: center;
   padding: 6px;
-  background-color: #42454a;
   border-bottom: solid 1px gray;
   color: #ffffff;
 }
@@ -29,20 +27,23 @@ th:first-child,
 td:first-child {
   text-align: left;
   font-weight: bold;
+  border-bottom: solid 1px grey;
 }
 
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-.table:hover {
+.table-container {
   cursor: pointer;
 }
 
-.table:hover::after {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #f8f9fc;
-  border-radius: 5px;
+.table-container:hover {
+  background-color: #6b7584;
 }
+
+.table-container {
+  width: 90%;
+  height: 100%;
+  border-radius: 7px;
+  padding: 6px;
+  background-color: #2d3036;
+  color: #ffffff;
+}
+
