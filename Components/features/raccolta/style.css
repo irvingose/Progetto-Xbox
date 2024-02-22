@@ -41,6 +41,7 @@
   color: white;
   font-size: large;
   padding: 5px;
+  text-align: center;
 }
 .info_raccolta {
   display: flex;
