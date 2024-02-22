@@ -7,7 +7,7 @@
 .genres_header {
   display: flex;
   flex-direction: row;
-  padding: 0 8px 8px 8px;
+  padding-bottom: 12px;
 }
 .genres_main {
   text-transform: uppercase;
