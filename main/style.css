@@ -54,14 +54,7 @@ fieldset,
 form,
 label,
 legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td {
+caption {
   margin: 0;
   padding: 0;
   border: 0;
@@ -139,4 +132,17 @@ body {
   background-image: url("../assets/images/image\ gradient\ 2.png");
   background-repeat: no-repeat;
   background-size: 100%;
+}
+.background_nav_header_module {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  background-image: linear-gradient(to top, #1a1b1e, transparent),
+    url(../assets/images/fortnite.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
