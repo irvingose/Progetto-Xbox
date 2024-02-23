@@ -3,9 +3,9 @@
   width: 90%;
 }
 
-.description h1 {
+.description h3 {
   color: white;
-  font-size: medium;
+  margin-bottom: 2vh;
 }
 .main_description_container {
   display: flex;
