@@ -1,18 +1,17 @@
 .description {
   color: white;
-}
-.description {
   width: 90%;
 }
+
 .description h1 {
   color: white;
-  font-size: x-large;
-  padding: 12px 0px 12px 0px;
+  font-size: medium;
 }
 .main_description_container {
   display: flex;
   position: relative;
   background-color: #2d3036;
+  border-radius: 4px;
 }
 .container_description {
   display: flex;
@@ -24,6 +23,7 @@
   flex-direction: column;
   overflow: hidden;
   justify-content: space-between;
+  width: 50%;
 }
 .text_description button {
   background-color: transparent;
@@ -43,21 +43,35 @@
   font-size: larger;
   overflow-y: hidden;
   margin: 10px 10px 0px 10px;
+  font-size: medium;
+  line-height: 1.3;
 }
+
 .text_description button {
   margin-top: auto;
 }
-.game_description_img img {
+.game_description_img {
   width: 150px;
-  height: 250px;
+}
+.game_description_img img {
+  width: 100%;
 }
 .game_developer {
   display: flex;
-  justify-content: center;
-  gap: 40px;
+  width: 50%;
+  gap: 20px;
+  justify-content: space-around;
+  margin-top: 20px;
 }
 .game_developer h1 {
   font-weight: bold;
+  font-size: medium;
+  width: max-content;
+}
+.printed,
+.developed,
+.date_release {
+  height: max-content;
 }
 .main_description_container:hover {
   cursor: pointer;
@@ -80,9 +94,5 @@
   .game_developer {
     display: flex;
     flex-direction: column;
-    gap: 5px;
-  }
-  .text_description_mobile {
-    display: flex;
   }
 }
